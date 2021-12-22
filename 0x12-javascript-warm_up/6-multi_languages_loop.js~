@@ -1,0 +1,5 @@
+#!/usr/bin/node
+0;136;0clet valuesToPrint = ['C ids fun', 'Python is cool', 'Javascript is amazing'];
+for (let i=0; i <  valuesToPrint.length; i++){
+    console.log(valuesToPrint[i]);
+}
