@@ -1,0 +1,11 @@
+#!/usr/bin/node
+const value1 = process.argv[2];
+const value2 = process.argv[3];
+function add(a,b){
+    if(isNaN(value1) || isNaN(value2)){
+	return NaN;
+    }else{
+	return a + b;
+    }
+}
+console.log(add(value1,value2));
