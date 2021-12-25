@@ -1,9 +1,11 @@
 #!/usr/bin/node
-const values = parseInt( process.argv[2,]);
-if(values === Null){
-    return 0;
-}else if(values.length === 1){
-    return 0;
+const values =  process.argv.slice(2).map((n) => {
+    parseInt(n)
+});
+if(values === null || values.length === 1){
+    console.log(0);
 }else{
-    console.log(max(values));
+    let newvalues = values.sort();
+    let output = newvalues[newvalues.length - 2];
+    console.log(output);
 }
