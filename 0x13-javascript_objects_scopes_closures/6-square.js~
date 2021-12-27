@@ -1,0 +1,10 @@
+#!/usr/bin/node
+const SquareModel = require('./5-square');
+module.exports = class Square extends SquareModel{
+    constructo(size){
+	super(size,size);
+    }
+    charPrint(c){
+	this.print(c);
+    }
+};
