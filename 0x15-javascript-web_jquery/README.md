@@ -1,12 +1,13 @@
-0x15. JavaScript - Web jQuery
-For this project, students are expected to look at these concepts:
+**0x15. JavaScript - Web jQuery**
 
-JavaScript in the browser
+__For this project, students are expected to look at these concepts:__
+
+JavaScript in the browser</br>
 Dealing with data statically versus dynamically
 Learning Objectives
 At the end of this project, you are expected to be able to explain to anyone, without the help of Google:
-
-General
+</br>
+__General__</br>
 Why JQuery make front-end programming so easy (don’t forget to tweet today, with the hashtag #ilovejquery :))
 How to select HTML elements in JavaScript
 How to select HTML elements with JQuery
@@ -17,9 +18,9 @@ How to modify the DOM
 How to make a GET request with JQuery Ajax
 How to make a POST request with JQuery Ajax
 How to listen/bind to DOM events
-How to listen/bind to user events
-Requirements
-General
+How to listen/bind to user events</br>
+__Requirements__</br>
+**General**</br>
 Allowed editors: vi, vim, emacs
 All your files will be interpreted on Chrome (version 57.0)
 All your files should end with a new line
