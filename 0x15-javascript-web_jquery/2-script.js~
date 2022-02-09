@@ -1,3 +1,0 @@
-$('div#red_header').on('cliclk', function(){
-    $('header).css.color('header', '#FF0000);
-})
